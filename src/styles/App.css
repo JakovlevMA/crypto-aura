@@ -27,7 +27,7 @@
 }
 
 .content_right {
-    font-family: "Russo One", sans-serif;
+    font-family: Russo One, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -38,7 +38,15 @@
     width: 132px;
     padding: 17px 25px;
     text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: background, color 0.3s ease-in-out;
+}
 
+.content_right:hover {
+    background: #46F4DB;
+    color: #07060B;
+    transition: 0.3s;
 }
 
 .navigations {
@@ -110,7 +118,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    background: #46F4DB;
     cursor: pointer;
 }
 
@@ -668,6 +676,7 @@ form {
     font-weight: 400;
     line-height: normal;
     border: none;
+    cursor: pointer;
 }
 
 label {
@@ -773,6 +782,7 @@ label {
     font-weight: 400;
     line-height: normal;
     border: none;
+    cursor: pointer;
 }
 
 .inputs_authors {
