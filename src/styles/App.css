@@ -1,0 +1,1019 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.all_content_nav {
+    width: 67%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_left {
+    display: flex;
+}
+
+.content_right {
+    font-family: "Russo One", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 77px;
+    background: black;
+    color: white;
+    width: 132px;
+    padding: 17px 25px;
+    text-align: center;
+
+}
+
+.navigations {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav_names {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav_names:hover {
+    color: rgba(70, 244, 219, 1);
+    transition: 0.3s;
+}
+
+.name_shop {
+    padding-right: 64px;
+}
+
+.all_content_presentations {
+    background: black;
+    background-image: url("../img/stickers_hero.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% + 9px);
+    height: 680px
+}
+
+.container_presentation {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 67%;
+    margin: auto;
+}
+
+.img_pres {
+    width: 50%;
+}
+
+.names_pres {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+.btns {
+    color: #07060B;
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    cursor: pointer;
+}
+
+.next_btns {
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    border: 5px solid #46F4DB;
+    color: rgba(255, 255, 255, 1);
+    background: black;
+    padding: 25px 54px;
+    cursor: pointer;
+    transition: background, color 0.3s ease-in-out;
+}
+
+.next_btns:hover {
+    background: #46F4DB;
+    color: black;
+    transition: 0.3s;
+}
+
+.names_pres_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.pres_btns {
+    display: flex;
+    gap: 32px;
+}
+
+/*Auction................*/
+
+.all_content_auction {
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.auctions {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 67%;
+}
+
+.auctions_live_name {
+    display: flex;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    justify-content: center;
+    color: red;
+    align-self: center;
+}
+
+.name_auction {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.live_auction {
+    display: flex;
+    border: 2px solid red;
+    border-radius: 100px;
+    gap: 10px;
+    padding: 8px 15px;
+    padding-left: 13px;
+    width: 134px;
+    height: 36px;
+    align-self: center;
+}
+
+.striming_auction {
+    color: red;
+    font-size: 13px;
+    font-family: Russo One, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 5px;
+}
+
+.witcher {
+    width: 100%;
+}
+
+.auction_and_live {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.all_content_future_lots h2 {
+    padding-bottom: 32px;
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name_avatar {
+    display: flex;
+    gap: 16px;
+    border-radius: 23px;
+    background: #EDEDF2;
+    padding: 11px 16px;
+    width: fit-content;
+}
+
+.nickname {
+    align-self: center;
+    font-family: Russo One, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lot {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price_dollars {
+    border-radius: 40px;
+    background: #EDEDF2;
+    width: 296px;
+    height: 174px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.price_1 {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 32px;
+}
+
+.price_2 {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 32px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.price_3 {
+    color: #95959D;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 32px;
+}
+
+.price_time {
+    display: flex;
+    gap: 32px;
+}
+
+.num {
+    list-style: none;
+    color:  #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all_times {
+    list-style: none;
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timer {
+    background: #07060B;
+    display: flex;
+    width: 460px;
+    height: 174px;
+    border-radius: 40px;
+    justify-content: space-around;
+}
+
+.outIn {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.numbers {
+    display: flex;
+    gap: 26px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.hours_mins_seconds {
+    display: flex;
+    gap: 43px;
+    padding-left: 10px;
+}
+
+.clock_and_timer {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.clock {
+    display: flex;
+    align-self: center;
+}
+
+.btn_bid {
+    border-radius: 40px;
+    background: #46F4DB;
+    padding: 25px 54px;
+    color: #07060B;
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    width: 296px;
+    cursor: pointer;
+}
+
+.container_witcher {
+    width: 35%;
+}
+
+.witcher_and_timer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer_price_btn_name_avatar {
+    display: grid;
+    gap: 32px;
+}
+
+/*Лоты*/
+
+.lots_future {
+    height: 342px;
+    width: 296px;
+}
+
+.lots_future:nth-child(1n + 5){
+    margin-top: 32px;
+}
+
+.top_lot {
+    background: #EDEDF2;
+    border-radius: 40px 40px 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 7px 0;
+}
+
+.buttom_lot {
+    background: #07060B;
+    border-radius: 0 0 40px 40px;
+}
+
+.img_nickname {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+}
+
+.img_nickname_all {
+    display: flex;
+    gap: 8px;
+}
+
+.name_lot {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price_lot {
+    color: #46F4DB;
+    font-family: Russo One, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.time_lot {
+    color: #95959D;
+    font-family: Russo One, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info_lot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
+
+.img_nickname_all_info {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.lots_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 32px
+}
+
+.all_content_future_lots {
+    display: flex;
+    max-width: 67%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 90px;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+
+.btn_lots {
+    border-radius: 40px;
+    border: 5px solid #46F4DB;
+    padding: 25px 54px;
+    color: #07060B;
+    background: white;
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    width: 296px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn_lots:hover {
+    background: #46F4DB;
+    transition: 0.4s;
+}
+
+/*Новые стикеры*/
+
+.all_container_content {
+    background: #07060B;
+}
+
+.container_content {
+    max-width: 67%;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.fire_and_name {
+    display: flex;
+    gap: 10px;
+    align-self: center;
+    padding-top: 90px;
+    padding-bottom: 32px;
+}
+
+.new_stickers {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img_stickers_container {
+    gap: 18px;
+    flex-shrink: 0;
+}
+
+.img_stickers_container_all {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fire {
+    width: auto;
+    display: flex;
+    align-self: center;
+}
+
+.btns_numbers {
+    color: #FFF;
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    background: #07060B;
+    width: 56px;
+    height: 36px;
+    border: 2px solid #D13130;
+    cursor: pointer;
+}
+
+
+.btns_numbers.selected {
+    background: #D13130;
+}
+
+
+.img_stickers_container_all.left {
+    transform: translateX(105%);
+}
+
+.img_stickers_container_all.right {
+    transform: translateX(-105%);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 90px
+}
+
+/*NewsLetter*/
+
+.all_content_NewsLetter {
+    background: #D13130;
+}
+
+.all_content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 67%;
+    margin: auto;
+}
+
+.left_content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.left_content p {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 32px;
+}
+
+.inputs {
+    width: 460px;
+    height: 70px;
+    padding: 10px 10px 10px 32px;
+    align-items: center;
+    border-radius: 40px;
+    background: #07060B;
+    border: none;
+    color: #EDEDF2;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_News {
+    width: 296px;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: #46F4DB;
+    color: #07060B;
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+label {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 8px;
+}
+
+/*Authors*/
+
+.authors_all {
+    display: flex;
+    padding: 90px 0;
+}
+
+.container_authors {
+    display: flex;
+    max-width: 67%;
+    margin: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.all_authors_left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 32px;
+}
+
+.authors_left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 32px;
+}
+
+.tittle_authors {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second_title_authors {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph_authors {
+    color: #363638;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.authors_right {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.form_file {
+    width: 624px;
+    height: 342px;
+    border-radius: 40px;
+    background: #EDEDF2;
+}
+
+.plus {
+    width: 100px;
+    height: 100px;
+}
+
+.accept_file {
+    opacity: 0;
+}
+
+.btn_file {
+    width: 296px;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #46F4DB;
+    color: #07060B;
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.inputs_authors {
+    width: 624px;
+    height: 70px;
+    padding: 10px 10px 10px 32px;
+    align-items: center;
+    border-radius: 40px;
+    background: #EDEDF2;
+    color: #717178;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.label_file {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    cursor: pointer
+}
+
+.label_file span {
+    color: #95959D;
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hands {
+    width: 624px;
+    height: 252px;
+}
+
+/*Sellers*/
+
+.container_sellers {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.sellers_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 90px;
+}
+
+.sellers_and_nameBlock {
+    display: flex;
+    max-width: 67%;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img_container_seller {
+    height: 174px;
+    padding: 16px 0 16px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 0 0 40px;
+    background: #EDEDF2;
+}
+
+.text_sellers {
+    display: flex;
+    background: white;
+    flex-direction: column;
+    width: 482px;
+    justify-content: center;
+    border: none;
+    gap: 9px;
+    border-radius: 0 40px 40px 0;
+    padding-left: 19px;
+
+}
+
+.avatar_and_nickname {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.prise_USD_ETH {
+    display: flex;
+    gap: 2px
+}
+
+.nickname_seller {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nameLot {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.priceETH {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.priceUSD {
+    color: #95959D;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sellers_container_all {
+    background: #07060B;
+}
+
+.tops_sellers {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 32px;
+    padding-top: 90px;
+}
+
+/*Collects*/
+
+.all_topList_container {
+    background: #37373E;
+}
+
+.topList_container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 67%;
+    margin: auto;
+    padding: 32px 0 32px 0;
+}
+
+.topList_container_left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.icons_and_description {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icons_and_description p {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.topList_container_left span {
+    color: #FFF;
+    font-family: Russo One, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Footer*/
+
+.all_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_top {
+    background: #46F4DB;
+}
+
+.footer_top_container {
+    display: flex;
+    max-width: 67%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.footer_left_content {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.descriptions {
+    color: #07060B;
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_bottom {
+    background: #07060B;
+    display: flex;
+    justify-content: center;
+}
+
+.aura {
+    color: #EDEDF2;
+    font-family: Russo One, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 0;
+}
