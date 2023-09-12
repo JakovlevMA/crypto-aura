@@ -16,8 +16,8 @@ const NewsLetter = () => {
                     </label>
                     </form>
                 </div>
-                <div>
-                    <img src={okay} alt="okay"/>
+                <div className={'okay_div'}>
+                    <img className={'okay_img'} src={okay} alt="okay"/>
                 </div>
             </div>
         </div>

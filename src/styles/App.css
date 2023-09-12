@@ -828,7 +828,6 @@ label {
 
 .container_sellers {
     display: flex;
-    flex-wrap: wrap;
     box-sizing: border-box;
 }
 
@@ -1026,4 +1025,232 @@ label {
     font-weight: 400;
     line-height: normal;
     padding: 8px 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .all_content_nav {
+        width: 95%;
+    }
+
+    .container_presentation {
+        max-width: 95%;
+    }
+
+    .all_content_presentations {
+        background-position: calc(800% + 52px);
+    }
+
+    .names_pres_btns {
+        width: auto;
+    }
+
+    .auctions {
+        max-width: 95%;
+    }
+
+    .timer_price_btn_name_avatar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price_time {
+        flex-direction: column;
+    }
+
+    .witcher {
+        max-width: 460px
+    }
+
+    .container_witcher {
+        width: auto;
+    }
+
+    .all_content_future_lots {
+        max-width: 95%;
+    }
+
+    .lots_future:nth-child(1n + 4){
+        margin-top: 32px;
+    }
+
+    .container_content {
+        max-width: 95%;
+    }
+
+    .img_stickers {
+        height: 228px
+    }
+
+    .all_content {
+        max-width: 100%;
+        margin-left: 25.6px;
+    }
+
+    .okay_div {
+        position: relative;
+        overflow: hidden;
+        width: auto;
+        height: auto;
+    }
+
+    .okay_img {
+        transform: translate(19%, 0%);
+
+    }
+
+    .container_authors {
+        max-width: 95%;
+        flex-direction: column;
+    }
+
+    .hands {
+        width: 296px;
+        height: 547px;
+    }
+
+    .form_all {
+        display: grid;
+    }
+
+    .authors_right {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .sellers_and_nameBlock {
+        max-width: 95%;
+    }
+
+    .text_sellers {
+        width: 328px;
+    }
+
+    .topList_container {
+        max-width: 95%;
+    }
+
+    .footer_top_container {
+        max-width: 95%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+    .names_pres {
+        font-size: 32px;
+    }
+
+    .pres_btns {
+        flex-direction: column;
+    }
+
+    .container_presentation {
+        max-width: 95%;
+        height: 80%;
+    }
+
+    .all_content_presentations {
+        background-position-y: 500px;
+        background-size: 400px auto;
+    }
+
+    .pres_btns {
+        display: grid;
+        gap: 16px;
+    }
+
+    .next_btns {
+        padding: 20px 0px;
+    }
+
+    .auctions {
+        max-width: 95%;
+    }
+
+
+    .name_auction {
+        font-size: 35px;
+    }
+
+    .lot {
+        font-size: 29px;
+    }
+
+    .price_time {
+        flex-direction: column;
+    }
+
+    .timer {
+        width: 296px;
+    }
+
+    .clock {
+        display: none;
+    }
+
+    .all_content_auction {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_witcher {
+        width: auto;
+        padding-bottom: 32px;
+    }
+
+    .witcher_and_timer {
+        display: grid;
+    }
+
+    .all_content_future_lots {
+        max-width: 95%;
+    }
+
+    .btns_lots_container {
+        display: flex;
+        gap: 10px;
+        margin: auto;
+        padding-bottom: 32px;
+    }
+
+    .btn_lots {
+        width: auto;
+        padding: 10px 54px;
+    }
+
+    .btns_lots {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .btns_lots.active {
+        background: #46F4DB;
+    }
+
+    .container_content {
+        max-width: 95%;
+    }
+
+    .new_stickers {
+        font-size: 30px;
+        align-self: center;
+    }
+
+    .fire {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fire_and_name {
+        padding-top: 30px;
+    }
+
+    .img_stickers {
+        height: 100px
+    }
+
+    .img_stickers_container_all {
+        justify-content: space-around;
+    }
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import './styles/App.css'
 import Header from "./components/Header";
 import Presentations from "./components/Presentations";
@@ -47,10 +47,28 @@ import avatarTop4 from "./img/avatarsTop/avatarTop4.png"
 import avatarTop5 from "./img/avatarsTop/avatarTop5.png"
 import avatarTop6 from "./img/avatarsTop/avatarTop6.png"
 import Footer from "./components/Footer";
+import AuthorsVariation1024 from "./components/AuthorsVariation1024";
+import LotsFutureVariation320 from "./components/LotsFutureVariation320";
+import NewStickers320 from "./components/NewStickers320";
 
 
 
 function App() {
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     let lots = [
         {
             id: 1,
@@ -203,20 +221,20 @@ function App() {
             priceUSD: '($3,577.08)',
         },
     ]
-  return (
-    <div className="App">
-        <Header/>
-        <Presentations/>
-        <Auction/>
-        <LotsFuture lots = {lots}/>
-        <NewStickers stickersLots = {stickersLots}/>
-        <NewsLetter/>
-        <Authors/>
-        <TopSellers sellers = {topSellers}/>
-        <TopList/>
-        <Footer/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Presentations />
+            <Auction />
+            {windowWidth >= 320 && windowWidth <= 420 ?(<LotsFutureVariation320 lots={lots} />) : (<LotsFuture lots={lots}/>)}
+            {windowWidth >= 320 && windowWidth <= 420 ? (<NewStickers320 stickersLots={stickersLots}/>) : (<NewStickers stickersLots={stickersLots} />)}
+            <NewsLetter />
+            {windowWidth >= 421 && windowWidth <= 1024 ? (<AuthorsVariation1024 />) : (<Authors/>)}
+            <TopSellers sellers={topSellers} />
+            <TopList />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
