@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/crypto-aura/static/css/main.d2745b11.css",
+    "main.js": "/crypto-aura/static/js/main.38ec2c9a.js",
+    "static/media/stickers_hero.png": "/crypto-aura/static/media/stickers_hero.008bcb8b7e93c45dd399.png",
+    "static/media/witcher.png": "/crypto-aura/static/media/witcher.5a2ca63f6c5659d7f6da.png",
+    "static/media/sticker9.png": "/crypto-aura/static/media/sticker9.ff56cadfc92c1e96b079.png",
+    "static/media/sticker4.png": "/crypto-aura/static/media/sticker4.8b2ba71bcc75f1216538.png",
+    "static/media/okay.png": "/crypto-aura/static/media/okay.26770ad264cd50833d64.png",
+    "static/media/sticker8.png": "/crypto-aura/static/media/sticker8.f0151614f9707cccb082.png",
+    "static/media/handsVar1.png": "/crypto-aura/static/media/handsVar1.6052b40797f0090d6e61.png",
+    "static/media/hands.png": "/crypto-aura/static/media/hands.a0b5db7d64c185cc7d09.png",
+    "static/media/sticker3.png": "/crypto-aura/static/media/sticker3.174d2f48386745423102.png",
+    "static/media/sticker5.png": "/crypto-aura/static/media/sticker5.5990960fc706618f7035.png",
+    "static/media/sticker1.png": "/crypto-aura/static/media/sticker1.3f6f9a24723ba0194e07.png",
+    "static/media/sticker7.png": "/crypto-aura/static/media/sticker7.4ba98ddfe2e53490d831.png",
+    "static/media/sticker6.png": "/crypto-aura/static/media/sticker6.2e86fe1fca317acb637c.png",
+    "static/media/sticker2.png": "/crypto-aura/static/media/sticker2.fdde0489cb39334875ce.png",
+    "static/media/lot6.png": "/crypto-aura/static/media/lot6.fdeb38ecf82861c9fc30.png",
+    "static/media/lot4.png": "/crypto-aura/static/media/lot4.4a6c4943fac0d9b67a09.png",
+    "static/media/lot5.png": "/crypto-aura/static/media/lot5.f4166c10ed82d5bcf299.png",
+    "static/media/lot3.png": "/crypto-aura/static/media/lot3.2fa6ad6d123cfbe4faba.png",
+    "static/media/lot1.png": "/crypto-aura/static/media/lot1.5a7036251f9da68608fa.png",
+    "static/media/lot8.png": "/crypto-aura/static/media/lot8.c59404bf6204be6363b5.png",
+    "static/media/imgsTop1.png": "/crypto-aura/static/media/imgsTop1.1d7258fba31169f26208.png",
+    "static/media/lot7.png": "/crypto-aura/static/media/lot7.76adf279616732d56de4.png",
+    "static/media/imgsTop2.png": "/crypto-aura/static/media/imgsTop2.c260b7967f6f3e6d3e9c.png",
+    "static/media/lot2.png": "/crypto-aura/static/media/lot2.a86fa18970b48b2b8e4c.png",
+    "static/media/imgsTop5.png": "/crypto-aura/static/media/imgsTop5.7f51b3b0f159b81b2c76.png",
+    "static/media/imgsTop3.png": "/crypto-aura/static/media/imgsTop3.ad397df7a0d5b6f03664.png",
+    "static/media/smiles.png": "/crypto-aura/static/media/smiles.c89350ac5b091b8feb24.png",
+    "static/media/imgsTop6.png": "/crypto-aura/static/media/imgsTop6.6d718b78edee14f0f3e7.png",
+    "static/media/imgsTop4.png": "/crypto-aura/static/media/imgsTop4.a141f806770f7e9d714b.png",
+    "static/media/eclipce.png": "/crypto-aura/static/media/eclipce.82b91dfcc87b10ac1ea4.png",
+    "index.html": "/crypto-aura/index.html",
+    "main.d2745b11.css.map": "/crypto-aura/static/css/main.d2745b11.css.map",
+    "main.38ec2c9a.js.map": "/crypto-aura/static/js/main.38ec2c9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2745b11.css",
+    "static/js/main.38ec2c9a.js"
+  ]
+}
