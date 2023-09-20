@@ -1,9 +1,14 @@
 import React from 'react';
 
 const LotsFuture = ({ lots }) => {
-    const filteredLots = lots.filter((lot) => {
-        return window.innerWidth <= 1024 || (lot.id !== 7 && lot.id !== 8);
-    });
+    let filteredLots;
+
+    if (window.innerWidth <= 1024) {
+        filteredLots = lots.filter((lot) => lot.id !==7 && lot.id !== 8)
+    } else {
+        filteredLots = lots
+    }
+
 
     return (
         <div className='all_content_future_lots'>

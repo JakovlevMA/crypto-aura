@@ -24,7 +24,7 @@ const TopList = () => {
                         </div>
                 </div>
                 <div className={'topList_container_right'}>
-                    <img src={smiles} alt=""/>
+                    <img className={'topList_container_right'} src={smiles} alt=""/>
                 </div>
             </div>
         </div>

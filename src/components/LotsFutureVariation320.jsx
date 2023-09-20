@@ -19,16 +19,16 @@ const LotsFuture = ({ lots }) => {
         return lots.filter((lot) => lot.id === buttonIndex);
     };
 
-    const filteredLots = lots.filter((lot) => {
-        return window.innerWidth <= 1024 || (lot.id !== 7 && lot.id !== 8);
-    });
+    // const filteredLots = lots.filter((lot) => {
+    //     return window.innerWidth <= 1024 || (lot.id !== 7 && lot.id !== 8);
+    // });
 
     const selectedLots = getFilteredLots(selectedButton320);
 
     return (
         <div className='all_content_future_lots'>
             <h2>Другие аукционы</h2>
-            <div className='lots_container'>
+            <div className={`lots_container ${transitionDirection320}`}>
                 {selectedLots.map((lot) => (
                     <div className='lots_future' key={lot.id}>
                         <div className='top_lot'>

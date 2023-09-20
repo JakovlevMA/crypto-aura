@@ -483,7 +483,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 32px
+    padding-bottom: 32px;
 }
 
 .all_content_future_lots {
@@ -862,7 +862,7 @@ label {
     display: flex;
     background: white;
     flex-direction: column;
-    width: 482px;
+    width: 479px;
     justify-content: center;
     border: none;
     gap: 9px;
@@ -1027,7 +1027,7 @@ label {
     padding: 8px 0;
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
     .all_content_nav {
         width: 95%;
     }
@@ -1058,7 +1058,8 @@ label {
     }
 
     .witcher {
-        max-width: 460px
+        max-width: 750px;
+        min-width: 460px;
     }
 
     .container_witcher {
@@ -1132,7 +1133,16 @@ label {
     .footer_top_container {
         max-width: 95%;
     }
+
+    .tops_sellers {
+        margin: auto
+    }
+
+    .sellers_container {
+        justify-content: space-around;
+    }
 }
+
 
 @media (min-width: 320px) and (max-width: 420px) {
     .names_pres {
@@ -1159,7 +1169,7 @@ label {
     }
 
     .next_btns {
-        padding: 20px 0px;
+        padding: 20px 0;
     }
 
     .auctions {
@@ -1203,6 +1213,7 @@ label {
 
     .all_content_future_lots {
         max-width: 95%;
+        overflow: hidden
     }
 
     .btns_lots_container {
@@ -1252,5 +1263,237 @@ label {
 
     .img_stickers_container_all {
         justify-content: space-around;
+    }
+
+    .all_content {
+        max-width: 95%;
+        flex-direction: column;
+    }
+
+    .inputs {
+        width: auto;
+        height: 60px;
+    }
+
+    .btn_News {
+        width: 200px;
+        height: 60px;
+        padding: 0 0;
+
+    }
+
+    form {
+        padding-bottom: 8px;
+    }
+
+    .okay_img {
+        width: 305px;
+        display: flex;
+        margin: auto;
+    }
+
+    .hands {
+        width: 296px;
+        height: 120px;
+        align-self: center
+    }
+
+    .container_authors {
+        max-width: 95%;
+        flex-direction: column;
+        gap: 16px
+    }
+
+    .tittle_authors {
+        font-size: 30px;
+    }
+
+    .second_title_authors {
+        font-size: 16px;
+    }
+
+    .paragraph_authors {
+        font-size: 16px;
+    }
+
+    .form_file {
+        width: 296px;
+        height: 200px;
+    }
+
+    .plus {
+        width: 60px;
+        height: 60px;
+    }
+
+    .label_file span {
+        font-size: 16px;
+    }
+
+    .all_authors_left {
+        padding-right: 0;
+    }
+
+    .inputs_authors {
+        font-size: 16px;
+        width: 296px;
+    }
+
+    .sellers_and_nameBlock {
+        max-width: 95%;
+    }
+
+    .tops_sellers {
+        font-size: 30px;
+        padding-top: 32px;
+    }
+
+    .nameLot {
+        font-size: 20px;
+    }
+
+    .priceETH {
+        font-size: 12px;
+    }
+
+    .priceUSD {
+        font-size: 12px;
+    }
+
+    .container_sellers {
+        flex-direction: column;
+    }
+
+    .text_sellers {
+        width: 132px;
+        border-radius: 0 0 18px 18px;
+        height: 118px;
+        gap: 8px;
+        padding-left: 16px;
+    }
+
+    .lots_container {
+        margin: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .img_container_seller {
+        border-radius: 18px 18px 0 0;
+        padding: 10px 0 0 24px;
+        height: 110px;
+    }
+
+    .prise_USD_ETH {
+        flex-direction: column;
+    }
+
+    .sellers_container {
+        justify-content: space-around;
+        padding-bottom: 32px;
+    }
+
+    .img_seller {
+        width: 108px;
+    }
+
+    .topList_container {
+        flex-direction: column;
+        max-width: 95%;
+        gap: 32px;
+    }
+
+    .topList_container_left span {
+        font-size: 20px;
+    }
+
+    .icons_and_description p {
+        font-size: 15px;
+    }
+
+    .icons_and_description {
+        gap: 4px;
+    }
+
+    .topList_container_right {
+        width: 296px;
+        margin: auto
+    }
+
+    .footer_top_container {
+        min-width: 95%;
+        flex-direction: column;
+    }
+
+    .descriptions {
+        font-size: 16px;
+    }
+
+    .aura_footer {
+        text-align: center;
+        border-bottom: black 1px solid;
+        padding-bottom: 20px;
+    }
+
+    .footer_left_content {
+        align-self: center;
+        padding-top: 15px;
+    }
+
+    .form_all {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .header_container {
+        max-width: 95%;
+    }
+
+    .header_container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .container_header_top {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: #C4C4C4 1px solid;
+    }
+
+    .nav_names {
+        font-size: 16px;
+    }
+
+    .navigations {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+
+    .timer_price_btn_name_avatar {
+        margin: auto;
+    }
+
+    .authors_right {
+        margin: auto;
+    }
+
+    .all_content_future_lots h2 {
+        margin: auto;
+    }
+
+    .name_avatar {
+        margin: auto;
+    }
+
+    .lots_container.left {
+        transform: translateX(120%);
+    }
+
+    .lots_container.right {
+        transform: translateX(-120%);
     }
 }

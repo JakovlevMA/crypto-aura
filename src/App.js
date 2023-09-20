@@ -50,6 +50,7 @@ import Footer from "./components/Footer";
 import AuthorsVariation1024 from "./components/AuthorsVariation1024";
 import LotsFutureVariation320 from "./components/LotsFutureVariation320";
 import NewStickers320 from "./components/NewStickers320";
+import Header320 from "./components/Header320";
 
 
 
@@ -187,7 +188,8 @@ function App() {
             nameLot: 'Y.EEE',
             priceETH: '3.00 ETH',
             priceUSD: '($10,731.24)'
-        },{
+        },
+        {
             id: 3,
             img: imgTop3,
             avatarTop: avatarTop3,
@@ -195,7 +197,8 @@ function App() {
             nameLot: 'Baby Joda',
             priceETH: '2.00 ETH',
             priceUSD: '($7,121.04)',
-        },{
+        },
+        {
             id: 4,
             img: imgTop4,
             avatarTop: avatarTop4,
@@ -203,7 +206,8 @@ function App() {
             nameLot: 'Infinity_09',
             priceETH: '1.6109 ETH',
             priceUSD: '($5,762.32)',
-        },{
+        },
+        {
             id: 5,
             img: imgTop5,
             avatarTop: avatarTop5,
@@ -211,7 +215,8 @@ function App() {
             nameLot: 'Sadsadsad',
             priceETH: '1.50 ETH',
             priceUSD: '($5,365.62)',
-        },{
+        },
+        {
             id: 6,
             img: imgTop6,
             avatarTop: avatarTop6,
@@ -223,13 +228,13 @@ function App() {
     ]
     return (
         <div className="App">
-            <Header />
+            {windowWidth >= 320 && windowWidth <= 421 ?(<Header320 />) : (<Header/>)}
             <Presentations />
             <Auction />
-            {windowWidth >= 320 && windowWidth <= 420 ?(<LotsFutureVariation320 lots={lots} />) : (<LotsFuture lots={lots}/>)}
-            {windowWidth >= 320 && windowWidth <= 420 ? (<NewStickers320 stickersLots={stickersLots}/>) : (<NewStickers stickersLots={stickersLots} />)}
+            {windowWidth >= 320 && windowWidth <= 421 ?(<LotsFutureVariation320 lots={lots} />) : (<LotsFuture lots={lots}/>)}
+            {windowWidth >= 320 && windowWidth <= 421 ? (<NewStickers320 stickersLots={stickersLots}/>) : (<NewStickers stickersLots={stickersLots} />)}
             <NewsLetter />
-            {windowWidth >= 421 && windowWidth <= 1024 ? (<AuthorsVariation1024 />) : (<Authors/>)}
+            {windowWidth >= 421 && windowWidth <= 1366 ? (<AuthorsVariation1024 />) : (<Authors/>)}
             <TopSellers sellers={topSellers} />
             <TopList />
             <Footer />

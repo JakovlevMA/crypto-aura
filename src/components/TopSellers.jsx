@@ -9,7 +9,7 @@ const TopSellers = ({sellers}) => {
                     {sellers.map((seller) => (
                         <div className={'container_sellers'}>
                             <div className={'img_container_seller'}>
-                                <img src={seller.img} alt="sellerIMG"/>
+                                <img className={'img_seller'} src={seller.img} alt="sellerIMG"/>
                             </div>
                             <div className={'text_sellers'}>
                                 <div className={'avatar_and_nickname'}>
